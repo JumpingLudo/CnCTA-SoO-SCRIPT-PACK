@@ -14,7 +14,7 @@
 
       var zoomMin = 1.0; // Larger number means able to zoom in closer.
       var zoomMax = 0.3; // Smaller number means able to zoom out further.
-      var zoomInc = 0.05; // Larger number for faster zooming, Smaller number for slower zooming.
+      var zoomInc = 0.02; // Larger number for faster zooming, Smaller number for slower zooming.
 
       webfrontend.gui.BackgroundArea.prototype.onHotKeyPress = function (be) {
         if (!this.active || be.getTarget() != this.mapContainer)
